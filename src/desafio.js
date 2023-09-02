@@ -1,22 +1,24 @@
 let nomeDoHeroi = "emanuelczar"
 let xp = 8050
 
+let nivelDoHeroi;
+
 if(xp <=1000){
-    xp = "Ferro"
+    nivelDoHeroi = "Ferro"
 }else if(xp >=1001 && xp <=2000){
-    xp = "Bronze"
+    nivelDoHeroi = "Bronze"
 }else if(xp >=2001 && xp <=5000){
-    xp = "Prata"
+    nivelDoHeroi = "Prata"
 }else if(xp >=5001 && xp <= 7000){
-    xp = "Ouro"
+    nivelDoHeroi = "Ouro"
 }else if(xp >=7001 && xp <= 8000){
-    xp = "Platina"
+    nivelDoHeroi = "Platina"
 }else if(xp >=8001 && xp <= 9000){
-    xp = "Ascendente"
+    nivelDoHeroi = "Ascendente"
 }else if(xp >= 9001 && xp <= 10000){
-    xp = "Imortal"
+    nivelDoHeroi = "Imortal"
 }else if(xp >=10001){
-    xp = "Radiante"
+    nivelDoHeroi = "Radiante"
 }
 
-console.log("O Herói de nome " + nomeDoHeroi + " Está no nível de " + xp)
+console.log(`O Herói de nome ${nomeDoHeroi} está no nível de ${nivelDoHeroi}`)
